@@ -1,12 +1,7 @@
 # Quantization Schemes For Training Neural Networks
 
-This work investigates the possibility of directly training quantized neural networks. 
-First, a weight quantization scheme is proposed which shows that little to no performance 
-loss is incurred when quantizing weights down to 4 bits. Second, it investigates the impact 
-of a similar quantization scheme on the activations of neurons. Experiments performed with 
-a simple fully connected network on the MNIST dataset as well as with a residual neural 
-network on the CIFAR-10 dataset show no significant loss when training with 4 bit weights 
-and activations. 
+This work shows how to train neural networks with quantized weights directly via backpropagation.
+It runs LeNet-300 on MNIST and ResNet18 on CIFAR10 datasets.
 
 ## Requirements
 - the **MNIST**/**CIFAR10** datasets are automatically downloaded form the TF repo when they are first used
