@@ -19,3 +19,7 @@ More details in [this pdf]( https://github.com/stracini-git/qnn/blob/main/files/
 ```markdown
 python Trainer.py --wbits 4 --abits 4
 ```
+
+
+## LeNet300 on MNIST
+<img src="https://github.com/stracini-git/qnn/blob/main/files/LN_qw_qa.png" width="640" >
