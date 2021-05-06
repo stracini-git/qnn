@@ -2,6 +2,8 @@
 
 This work shows how to train neural networks with quantized weights directly via backpropagation. The code
 quantizes weights as well as activations. It runs LeNet-300 on MNIST and ResNet18 on CIFAR10 datasets.
+More details in [this pdf]( https://github.com/stracini-git/qnn/blob/main/files/Quantization_Schemes.pdf)
+
 
 ## Requirements
 - the **MNIST**/**CIFAR10** datasets are automatically downloaded form the TF repo when they are first used
