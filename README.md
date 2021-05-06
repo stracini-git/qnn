@@ -10,11 +10,6 @@ quantizes weights as well as activations. It runs LeNet-300 on MNIST and ResNet1
 
 
 ## Run Experiment
-By default it runs LeNet300 using 32 bits for weights and activations:
-
-```markdown
-python Trainer.py 
-```
 
 **--wbits** specifies the number of bits for weights\
 **--abits** specifies the number of bits for activations
