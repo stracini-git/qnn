@@ -16,4 +16,4 @@ python Trainer.py --wbits 4 --abits 4
 
 
 ## Results
-<img src="files/Quantization_Results.png" width="720" >
+<img src="files/Quantization_Results.png" width="1240" >
